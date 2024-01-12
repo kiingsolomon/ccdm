@@ -344,6 +344,30 @@ class _LoginWidgetState extends State<LoginWidget>
                                     ),
                                   ),
                                 ),
+                                 Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      0, 15, 0, 0),
+                                  child: InkWell(
+                                    splashColor: Colors.transparent,
+                                    focusColor: Colors.transparent,
+                                    hoverColor: Colors.transparent,
+                                    highlightColor: Colors.transparent,
+                                    onTap: () async {
+                                      context.pushNamed('PasswordRecovery');
+                                    },
+                                    child: Text(
+                                      FFLocalizations.of(context).getText(
+                                        'qjdj1wu3' /* Forgot password? */,
+                                      ),
+                                      style: FlutterFlowTheme.of(context)
+                                          .bodyMedium
+                                          .override(
+                                            fontFamily: 'Readex Pro',
+                                            color: Color(0xFFE90D0D),
+                                          ),
+                                    ),
+                                  ),
+                                ),
                               ],
                             ),
                           ),
