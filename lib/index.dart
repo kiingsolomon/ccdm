@@ -18,3 +18,4 @@ export '/login/login_widget.dart' show LoginWidget;
 export '/profile05/profile05_widget.dart' show Profile05Widget;
 export '/videos/videos_widget.dart' show VideosWidget;
 export '/main_home_copy/main_home_copy_widget.dart' show MainHomeCopyWidget;
+export 'password_recovery_widget.dart' show PasswordRecoveryWidget;
